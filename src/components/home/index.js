@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
+import HomePost from "./homePosts";
+import NewsLetter from '../utils/newsLetter'
 
 const Home = () => {
-    return(
-        <>
-            home
-        </>
-    )
-}
-    
+	return (
+		<>
+			<HomePost />
+			<NewsLetter />
+		</>
+	);
+};
 
 export default Home;
